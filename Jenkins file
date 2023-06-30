@@ -1,0 +1,9 @@
+pipeline {  
+    agent Development
+    stages {  
+            stage ('Build') {  
+             steps { echo 'Jenkins testing' 
+                   }
+            }
+    }  
+}  
