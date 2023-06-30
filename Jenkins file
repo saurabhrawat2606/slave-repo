@@ -1,5 +1,5 @@
 pipeline {  
-    agent Development
+    agent "Development"
     stages {  
             stage ('Build') {  
              steps { echo 'Jenkins testing' 
